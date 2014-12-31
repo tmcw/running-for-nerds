@@ -1,12 +1,23 @@
 running-for-nerds
 =================
 
+Types of running websites:
+
+* "Fitness Portals" offered by hardware companies, like Garmin and Polar
+* "Fitness Portals" offered by web companies, like Strava and RunKeeper
+* Connectors, like Tapiriik and IFFT
+
 # Websites
+
+## RunKeeper
+
+* **tapiriik support**
 
 ## Strava
 
 Actively developed.
 
+* **tapiriik support**
 * [API Reference](http://strava.github.io/api/)
 * Custom JSON encoding for activities
 
@@ -14,10 +25,12 @@ Actively developed.
 
 Sporadic developer activity.
 
+* **tapiriik support**
 * [API Reference](http://developer.garmin.com/)
 
 ## Polar Flow
 
+* _unsupported in tapiriik_
 * [API Reference](http://www.polar.com/en/connect_with_polar/polar_accesslink)
 
 # Watches

@@ -9,6 +9,14 @@ Types of running websites:
 
 # Websites
 
+## Motivato
+
+* **tapiriik support**
+
+## endomoto
+
+* **tapiriik support**
+
 ## RunKeeper
 
 * **tapiriik support**

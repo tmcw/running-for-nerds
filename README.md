@@ -9,11 +9,8 @@ Types of running websites:
 
 # Websites
 
-## Motivato
 
-* **tapiriik support**
-
-## endomoto
+## [endomoto](https://www.endomondo.com/)
 
 * **tapiriik support**
 
@@ -37,10 +34,20 @@ Sporadic developer activity.
 * **tapiriik support**
 * [API Reference](http://developer.garmin.com/)
 
-## Polar Flow
+## [Polar Flow](https://flow.polar.com/)
 
 * _unsupported in tapiriik_
 * [API Reference](http://www.polar.com/en/connect_with_polar/polar_accesslink)
+
+## [Nike+](http://nikeplus.nike.com/)
+
+* [API](https://developer.nike.com/)
+* _unsupported in tapiriik_
+* [IFTTT Support](https://ifttt.com/nikeplus)
+
+## [Motivato](http://motivato.pl/#/): Polish Only
+
+* **tapiriik support**
 
 # Watches
 

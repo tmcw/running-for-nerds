@@ -51,11 +51,16 @@ Sporadic developer activity.
 
 * **tapiriik support**
 
+## [Movescount](http://movescount.com/)
+
+Can be synced directly to Strava and other third party apps, but no public API available.
+
 # Watches
 
 * Polar: locked down to FlowSync
 * TomTom: connects to many services, can save files locally
 * Garmin: supports a browser plugin that works on many websites - RunKeeper, Strava, Garmin Connect, etc.
+* Suunto: locked to Movescountvia Moveslink, but has exports to Strava and can also download as Garmin FIT files.
 
 ## GPS
 

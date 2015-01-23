@@ -72,7 +72,19 @@ put into arrays that work parallel to coordinates.
   * [GPSBabel](http://www.gpsbabel.org/) is an essential swiss-army knife
 * [TCX](http://en.wikipedia.org/wiki/Training_Center_XML)
 
-## Sensor Protocols
+## Sensors
+
+A few basic sensor types:
+
+* Heart rate
+* Cadence (for cycling)
+
+Most heart rate sensors work via [EKG](http://en.wikipedia.org/wiki/Electrocardiography), which means
+that a big part of their effectiveness comes from skin contact and they often work better with sweat moisture.
+
+Not all do, however - for instance [Fitbit PurePulse](http://help.fitbit.com/articles/en_US/Help_article/Heart-rate-FAQs) uses an optical sensor to estimate blood flow and supposedly derives heart rate from this measurement.
+
+### Protocols
 
 * [Bluetooth Low Energy](http://en.wikipedia.org/wiki/Bluetooth_low_energy)
 * [Polar Wearlink](https://groups.google.com/forum/#!topic/btstack-dev/TusCxtbq7ug) - proprietary

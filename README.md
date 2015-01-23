@@ -55,6 +55,24 @@ Sporadic developer activity.
 * TomTom: connects to many services, can save files locally
 * Garmin: supports a browser plugin that works on many websites - RunKeeper, Strava, Garmin Connect, etc.
 
+## GPS
+
+The basics of GPS:
+
+GPS is one system, but there are others, and some devices use more than one. For instance, a new iPhone
+connects to GPS, GLONAS (Russia's system), as well as local wifi access points to derive an accurate location.
+
+GPS's accuracy has two user-facing problems
+
+* Time to first lock
+* Jitter
+
+The first problem is often ameliorated by 'quickfix' tables - these store recent estimates of satellite
+positions so that your receiver can make better guesses initially for where exactly you are.
+
+The second is based on a few different problems - in cities, [multipath propagation](http://en.wikipedia.org/wiki/Multipath_propagation) will distort a signal that bounces off of a big
+building, making the track end up offset from its original location.
+
 ## Formats
 
 Running data is fun because it's potentially 5-dimensional: within a single GPX or TCX file, you can have

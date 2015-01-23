@@ -1,6 +1,8 @@
 running-for-nerds
 =================
 
+_contribute! if you have facts to share, please submit a pull request or leave an issue_
+
 Types of running websites:
 
 * "Fitness Portals" offered by hardware companies, like Garmin and Polar

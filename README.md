@@ -57,6 +57,17 @@ Sporadic developer activity.
 
 ## Formats
 
+Running data is fun because it's potentially 5-dimensional: within a single GPX or TCX file, you can have
+
+* longitude & latitude & elevation `[x, y, z]`
+* heart rate
+* time
+
+But traditional GIS formats like Shapefiles can't store all of this data in a non-hacky way,
+since they only support attributes at the line level, not at the line-segment level.
+[toGeoJSON](https://github.com/mapbox/togeojson) converts GPX to GeoJSON with these properties
+put into arrays that work parallel to coordinates.
+
 * [GPX](http://www.topografix.com/gpx.asp)
   * [GPSBabel](http://www.gpsbabel.org/) is an essential swiss-army knife
 * [TCX](http://en.wikipedia.org/wiki/Training_Center_XML)

@@ -61,6 +61,7 @@ Can be synced directly to Strava and other third party apps, but no public API a
 * TomTom: connects to many services, can save files locally
 * Garmin: supports a browser plugin that works on many websites - RunKeeper, Strava, Garmin Connect, etc.
 * Suunto: locked to Movescountvia Moveslink, but has exports to Strava and can also download as Garmin FIT files.
+* Fitbit Surge: uploads to Fitbit & RunKeeper
 
 ## GPS
 
@@ -107,7 +108,7 @@ A few basic sensor types:
 Most heart rate sensors work via [EKG](http://en.wikipedia.org/wiki/Electrocardiography), which means
 that a big part of their effectiveness comes from skin contact and they often work better with sweat moisture.
 
-Not all do, however - for instance [Fitbit PurePulse](http://help.fitbit.com/articles/en_US/Help_article/Heart-rate-FAQs) uses an optical sensor to estimate blood flow and supposedly derives heart rate from this measurement.
+Not all do, however - for instance [Fitbit PurePulse](http://help.fitbit.com/articles/en_US/Help_article/Heart-rate-FAQs) uses an optical sensor to estimate blood flow and supposedly derives heart rate from this measurement. This system has [had mixed reviews based on its accuracy, which seems to be less than straps](http://recode.net/2015/02/02/three-new-fitbits-see-how-they-run/)
 
 ### Protocols
 

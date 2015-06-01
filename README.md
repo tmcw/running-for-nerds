@@ -9,6 +9,13 @@ Types of running websites:
 * "Fitness Portals" offered by web companies, like Strava and RunKeeper
 * Connectors, like [Tapiriik](https://tapiriik.com/) and [IFFT](https://ifttt.com/)
 
+# taipirrik
+
+[taipiriik](https://tapiriik.com/) is truly one of the best things for running nerds: it allows
+you to automatically distribute your running data: upload just to Strava or to any of the supported
+websites, and it can push runs to all of the others, as well as a linked Dropbox bucket.
+It's really quite good.
+
 # Websites
 
 

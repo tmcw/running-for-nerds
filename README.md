@@ -19,48 +19,32 @@ It's really quite good.
 # Websites
 
 
-## [endomoto](https://www.endomondo.com/)
-
-* **tapiriik support**
-
-## [RunKeeper](http://runkeeper.com/)
-
-* [API](http://developer.runkeeper.com/healthgraph/overview)
-* **tapiriik support**
-
-## [Strava](http://www.strava.com/)
-
-Actively developed.
-
-* **tapiriik support**
-* [API Reference](http://strava.github.io/api/)
-* Custom JSON encoding for activities
-
-## [Garmin Connect](http://connect.garmin.com/)
-
-Sporadic developer activity.
-
-* **tapiriik support**
-* [API Reference](http://developer.garmin.com/)
-
-## [Polar Flow](https://flow.polar.com/)
-
-* _unsupported in tapiriik_
-* [API Reference](http://www.polar.com/en/connect_with_polar/polar_accesslink)
-
-## [Nike+](http://nikeplus.nike.com/)
-
-* [API](https://developer.nike.com/)
-* _unsupported in tapiriik_
-* [IFTTT Support](https://ifttt.com/nikeplus)
-
-## [Motivato](http://motivato.pl/#/): Polish Only
-
-* **tapiriik support**
-
-## [Movescount](http://movescount.com/)
-
-Can be synced directly to Strava and other third party apps, but no public API available.
+* [endomoto](https://www.endomondo.com/)
+  * **tapiriik support**
+* [RunKeeper](http://runkeeper.com/)
+  * [API](http://developer.runkeeper.com/healthgraph/overview)
+  * **tapiriik support**
+* [Strava](http://www.strava.com/)
+  * Actively developed.
+  * **tapiriik support**
+  * [API Reference](http://strava.github.io/api/)
+  * Custom JSON encoding for activities
+* [Garmin Connect](http://connect.garmin.com/)
+  * Sporadic developer activity: Garmin is an old company that has had a really hard time modernizing at all, and as a result the interface has become a sort of trainwreck.
+  * **tapiriik support**
+  * [API Reference](http://developer.garmin.com/)
+* [Polar Flow](https://flow.polar.com/)
+  * _unsupported in tapiriik_
+  * [API Reference](http://www.polar.com/en/connect_with_polar/polar_accesslink)
+  * Polar is probably the worst watch brand for nerds: it's clear that the company wants to lock down the data _you_ create with the watches _you_ buy
+* [Nike+](http://nikeplus.nike.com/)
+  * [API](https://developer.nike.com/)
+  * _unsupported in tapiriik_
+  * [IFTTT Support](https://ifttt.com/nikeplus)
+* [Motivato](http://motivato.pl/#/): Polish Only
+  * **tapiriik support**
+* [Movescount](http://movescount.com/)
+  * Can be synced directly to Strava and other third party apps, but no public API available.
 
 # Watches
 

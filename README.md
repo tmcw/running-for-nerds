@@ -29,6 +29,7 @@ It's really quite good.
   * **tapiriik support**
   * [API Reference](http://strava.github.io/api/)
   * Custom JSON encoding for activities
+  * Strava's API is one of the most modern of the bunch, being that it's from a _real tech company_ and has some elite developers working on it. That said, it's frustratingly one-way: you can upload a GPX, FIT, or TCX file, but the only thing you can get back is Strava's custom, non-standard JSON encoding.
 * [Garmin Connect](http://connect.garmin.com/)
   * Sporadic developer activity: Garmin is an old company that has had a really hard time modernizing at all, and as a result the interface has become a sort of trainwreck.
   * **tapiriik support**

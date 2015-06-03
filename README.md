@@ -35,6 +35,7 @@ It's really quite good.
   * **tapiriik support**
   * [API Reference](http://developer.garmin.com/)
 * [Polar Flow](https://flow.polar.com/)
+  * **WALLED GARDEN**: AVOID
   * _unsupported in tapiriik_
   * [API Reference](http://www.polar.com/en/connect_with_polar/polar_accesslink)
   * Polar is probably the worst watch brand for nerds: it's clear that the company wants to lock down the data _you_ create with the watches _you_ buy
@@ -46,6 +47,9 @@ It's really quite good.
   * **tapiriik support**
 * [Movescount](http://movescount.com/)
   * Can be synced directly to Strava and other third party apps, but no public API available.
+* [Fitbit](http://www.fitbit.com/home)
+  * **WALLED GARDEN**
+  * [Charges for data export](http://www.fitbit.com/premium/export)
 
 ## Watches
 

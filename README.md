@@ -98,6 +98,7 @@ put into arrays that work parallel to coordinates.
 * [GPX](http://www.topografix.com/gpx.asp)
   * [GPSBabel](http://www.gpsbabel.org/) is an essential swiss-army knife
 * [TCX](http://en.wikipedia.org/wiki/Training_Center_XML)
+* [Strava activity format](https://strava.github.io/api/v3/activities/)
 
 ## Sensors
 

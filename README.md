@@ -48,7 +48,7 @@ It's really quite good.
 * [Movescount](http://movescount.com/)
   * Can be synced directly to Strava and other third party apps, but no public API available.
 * [Fitbit](http://www.fitbit.com/home)
-  * **WALLED GARDEN**
+  * [TCX output for some devices](https://dev.fitbit.com/docs/activity/#get-activity-tcx)
   * [Charges for data export](http://www.fitbit.com/premium/export)
 
 ## Watches

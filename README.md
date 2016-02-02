@@ -9,9 +9,9 @@ Types of running websites:
 * "Fitness Portals" offered by web companies, like Strava and RunKeeper
 * Connectors, like [Tapiriik](https://tapiriik.com/) and [IFFT](https://ifttt.com/)
 
-## taipirrik
+## tapiriik
 
-[taipiriik](https://tapiriik.com/) is truly one of the best things for running nerds: it allows
+[tapiriik](https://tapiriik.com/) is truly one of the best things for running nerds: it allows
 you to automatically distribute your running data: upload just to Strava or to any of the supported
 websites, and it can push runs to all of the others, as well as a linked Dropbox bucket.
 It's really quite good.
@@ -19,7 +19,7 @@ It's really quite good.
 ## Websites
 
 
-* [endomoto](https://www.endomondo.com/)
+* [Endomondo](https://www.endomondo.com/)
   * **tapiriik support**
 * [RunKeeper](http://runkeeper.com/)
   * [API](http://developer.runkeeper.com/healthgraph/overview)
@@ -51,6 +51,13 @@ It's really quite good.
   * [TCX output for some devices](https://dev.fitbit.com/docs/activity/#get-activity-tcx)
   * [Charges for data export](http://www.fitbit.com/premium/export)
 
+
+## Apps
+
+* [Ghostracer](http://bravetheskies.com/ghostracer/)
+  * Excellent choice for use on Android Wear devices
+  * Uploads to Strava and Runkeeper
+
 ## Watches
 
 Recommended:
@@ -59,6 +66,7 @@ Recommended:
 * Garmin: supports a browser plugin that works on many websites - RunKeeper, Strava, Garmin Connect, etc.
 * Suunto: locked to Movescountvia Moveslink, but has exports to Strava and can also download as Garmin FIT files.
 * Fitbit Surge: uploads to Fitbit & RunKeeper
+* [Sony Smartwatch 3](http://www.sonymobile.com/global-en/products/smartwear/smartwatch-3-swr50/): Runs on Android Wear and has built-in GPS, so you can use it as a stand-alone device.
 
 Not recommended:
 
@@ -69,7 +77,7 @@ Not recommended:
 The basics of GPS:
 
 GPS is one system, but there are others, and some devices use more than one. For instance, a new iPhone
-connects to GPS, GLONAS (Russia's system), as well as local wifi access points to derive an accurate location.
+connects to GPS, GLONASS (Russia's system), as well as local wifi access points to derive an accurate location.
 
 GPS's accuracy has two user-facing problems
 

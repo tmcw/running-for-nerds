@@ -124,4 +124,12 @@ Not all do, however - for instance [Fitbit PurePulse](http://help.fitbit.com/art
 
 * [Bluetooth Low Energy](http://en.wikipedia.org/wiki/Bluetooth_low_energy)
 * [Polar Wearlink](https://groups.google.com/forum/#!topic/btstack-dev/TusCxtbq7ug) - proprietary
-* [ANT+](http://en.wikipedia.org/wiki/ANT%2B)
+
+#### ANT+
+
+[ANT+](http://en.wikipedia.org/wiki/ANT%2B) is a licensed protocol for accessories to communicate with other devices.
+
+* https://github.com/braiden/python-ant-downloader
+* https://github.com/Tigge/openant
+* https://github.com/Tigge/antfs-cli
+* https://github.com/mvillalba/python-ant

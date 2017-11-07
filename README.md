@@ -54,7 +54,7 @@ It's really quite good.
 
 ## Apps
 
-* [Ghostracer](http://bravetheskies.com/ghostracer/)
+* [Ghostracer](http://getghostracer.com/)
   * Excellent choice for use on Android Wear devices
   * Uploads to Strava and Runkeeper
 

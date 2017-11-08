@@ -1,0 +1,90 @@
+{
+  "name": "tmcw/running-for-nerds",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Running for nerds",
+  "branch": "master",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/tmcw/running-for-nerds",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "running-for-nerds",
+      "subhead": "like running, but for nerds",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "running-for-nerds: like running, but for nerds",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "tmcw",
+          "repo": "running-for-nerds"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p><em>contribute! if you have facts to share, please submit a pull request or leave an issue</em></p>\n<p>Types of running websites:</p>\n<ul>\n<li>&quot;Fitness Portals&quot; offered by hardware companies, like Garmin and Polar</li>\n<li>&quot;Fitness Portals&quot; offered by web companies, like Strava and RunKeeper</li>\n<li>Connectors, like <a href=\"https://tapiriik.com/\">Tapiriik</a> and <a href=\"https://ifttt.com/\">IFFT</a></li>\n</ul>\n<h2>tapiriik</h2>\n<p><a href=\"https://tapiriik.com/\">tapiriik</a> is truly one of the best things for running nerds: it allows\nyou to automatically distribute your running data: upload just to Strava or to any of the supported\nwebsites, and it can push runs to all of the others, as well as a linked Dropbox bucket.\nIt&apos;s really quite good.</p>\n<h2>Websites</h2>\n<ul>\n<li><a href=\"https://www.endomondo.com/\">Endomondo</a><ul>\n<li><strong>tapiriik support</strong></li>\n</ul>\n</li>\n<li><a href=\"http://runkeeper.com/\">RunKeeper</a><ul>\n<li><a href=\"http://developer.runkeeper.com/healthgraph/overview\">API</a></li>\n<li><strong>tapiriik support</strong></li>\n</ul>\n</li>\n<li><a href=\"http://www.strava.com/\">Strava</a><ul>\n<li>Actively developed.</li>\n<li><strong>tapiriik support</strong></li>\n<li><a href=\"http://strava.github.io/api/\">API Reference</a></li>\n<li>Custom JSON encoding for activities</li>\n<li>Strava&apos;s API is one of the most modern of the bunch, being that it&apos;s from a <em>real tech company</em> and has some elite developers working on it. That said, it&apos;s frustratingly one-way: you can upload a GPX, FIT, or TCX file, but the only thing you can get back is Strava&apos;s custom, non-standard JSON encoding.</li>\n</ul>\n</li>\n<li><a href=\"http://connect.garmin.com/\">Garmin Connect</a><ul>\n<li>Sporadic developer activity: Garmin is an old company that has had a really hard time modernizing at all, and as a result the interface has become a sort of trainwreck.</li>\n<li><strong>tapiriik support</strong></li>\n<li><a href=\"http://developer.garmin.com/\">API Reference</a></li>\n</ul>\n</li>\n<li><a href=\"https://flow.polar.com/\">Polar Flow</a><ul>\n<li><strong>WALLED GARDEN</strong>: AVOID</li>\n<li><em>unsupported in tapiriik</em></li>\n<li><a href=\"http://www.polar.com/en/connect_with_polar/polar_accesslink\">API Reference</a></li>\n<li>Polar is probably the worst watch brand for nerds: it&apos;s clear that the company wants to lock down the data <em>you</em> create with the watches <em>you</em> buy</li>\n</ul>\n</li>\n<li><a href=\"http://nikeplus.nike.com/\">Nike+</a><ul>\n<li><a href=\"https://developer.nike.com/\">API</a></li>\n<li><em>unsupported in tapiriik</em></li>\n<li><a href=\"https://ifttt.com/nikeplus\">IFTTT Support</a></li>\n</ul>\n</li>\n<li><a href=\"http://motivato.pl/#/\">Motivato</a>: Polish Only<ul>\n<li><strong>tapiriik support</strong></li>\n</ul>\n</li>\n<li><a href=\"http://movescount.com/\">Movescount</a><ul>\n<li>Can be synced directly to Strava and other third party apps, but no public API available.</li>\n</ul>\n</li>\n<li><a href=\"http://www.fitbit.com/home\">Fitbit</a><ul>\n<li><a href=\"https://dev.fitbit.com/docs/activity/#get-activity-tcx\">TCX output for some devices</a></li>\n<li><a href=\"http://www.fitbit.com/premium/export\">Charges for data export</a></li>\n</ul>\n</li>\n</ul>\n<h2>Apps</h2>\n<ul>\n<li><a href=\"http://getghostracer.com/\">Ghostracer</a><ul>\n<li>Excellent choice for use on Android Wear devices</li>\n<li>Uploads to Strava and Runkeeper</li>\n</ul>\n</li>\n</ul>\n<h2>Watches</h2>\n<p>Recommended:</p>\n<ul>\n<li>TomTom: connects to many services, can save files locally</li>\n<li>Garmin: supports a browser plugin that works on many websites - RunKeeper, Strava, Garmin Connect, etc.</li>\n<li>Suunto: locked to Movescountvia Moveslink, but has exports to Strava and can also download as Garmin FIT files.</li>\n<li>Fitbit Surge: uploads to Fitbit &amp; RunKeeper</li>\n<li><a href=\"http://www.sonymobile.com/global-en/products/smartwear/smartwatch-3-swr50/\">Sony Smartwatch 3</a>: Runs on Android Wear and has built-in GPS, so you can use it as a stand-alone device.</li>\n</ul>\n<p>Not recommended:</p>\n<ul>\n<li>Polar: locked down to FlowSync</li>\n</ul>\n<h2>GPS</h2>\n<p>The basics of GPS:</p>\n<p>GPS is one system, but there are others, and some devices use more than one. For instance, a new iPhone\nconnects to GPS, GLONASS (Russia&apos;s system), as well as local wifi access points to derive an accurate location.</p>\n<p>GPS&apos;s accuracy has two user-facing problems</p>\n<ul>\n<li>Time to first lock</li>\n<li>Jitter</li>\n</ul>\n<p>The first problem is often ameliorated by &apos;quickfix&apos; tables - these store recent estimates of satellite\npositions so that your receiver can make better guesses initially for where exactly you are.</p>\n<p>The second is based on a few different problems - in cities, <a href=\"http://en.wikipedia.org/wiki/Multipath_propagation\">multipath propagation</a> will distort a signal that bounces off of a big\nbuilding, making the track end up offset from its original location.</p>\n<h2>Formats</h2>\n<p>Running data is fun because it&apos;s potentially 5-dimensional: within a single GPX or TCX file, you can have</p>\n<ul>\n<li>longitude &amp; latitude &amp; elevation <code>[x, y, z]</code></li>\n<li>heart rate</li>\n<li>time</li>\n</ul>\n<p>But traditional GIS formats like Shapefiles can&apos;t store all of this data in a non-hacky way,\nsince they only support attributes at the line level, not at the line-segment level.\n<a href=\"https://github.com/mapbox/togeojson\">toGeoJSON</a> converts GPX to GeoJSON with these properties\nput into arrays that work parallel to coordinates.</p>\n<ul>\n<li><a href=\"http://www.topografix.com/gpx.asp\">GPX</a><ul>\n<li><a href=\"http://www.gpsbabel.org/\">GPSBabel</a> is an essential swiss-army knife</li>\n</ul>\n</li>\n<li><a href=\"http://en.wikipedia.org/wiki/Training_Center_XML\">TCX</a></li>\n<li><a href=\"https://strava.github.io/api/v3/activities/\">Strava activity format</a></li>\n</ul>\n<h2>Sensors</h2>\n<p>A few basic sensor types:</p>\n<ul>\n<li>Heart rate</li>\n<li>Cadence (for cycling)</li>\n</ul>\n<p>Most heart rate sensors work via <a href=\"http://en.wikipedia.org/wiki/Electrocardiography\">EKG</a>, which means\nthat a big part of their effectiveness comes from skin contact and they often work better with sweat moisture.</p>\n<p>Not all do, however - for instance <a href=\"http://help.fitbit.com/articles/en_US/Help_article/Heart-rate-FAQs\">Fitbit PurePulse</a> uses an optical sensor to estimate blood flow and supposedly derives heart rate from this measurement. This system has <a href=\"http://recode.net/2015/02/02/three-new-fitbits-see-how-they-run/\">had mixed reviews based on its accuracy, which seems to be less than straps</a></p>\n<h3>Protocols</h3>\n<ul>\n<li><a href=\"http://en.wikipedia.org/wiki/Bluetooth_low_energy\">Bluetooth Low Energy</a></li>\n<li><a href=\"https://groups.google.com/forum/#!topic/btstack-dev/TusCxtbq7ug\">Polar Wearlink</a> - proprietary</li>\n</ul>\n<h4>ANT+</h4>\n<p><a href=\"http://en.wikipedia.org/wiki/ANT%2B\">ANT+</a> is a licensed protocol for accessories to communicate with other devices.</p>\n<ul>\n<li><a href=\"https://github.com/braiden/python-ant-downloader\">https://github.com/braiden/python-ant-downloader</a></li>\n<li><a href=\"https://github.com/Tigge/openant\">https://github.com/Tigge/openant</a></li>\n<li><a href=\"https://github.com/Tigge/antfs-cli\">https://github.com/Tigge/antfs-cli</a></li>\n<li><a href=\"https://github.com/mvillalba/python-ant\">https://github.com/mvillalba/python-ant</a></li>\n</ul>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/tmcw/running-for-nerds",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/tmcw",
+          "text": "tmcw"
+        }
+      ]
+    }
+  ]
+}

@@ -67,10 +67,11 @@ Recommended:
 * Suunto: locked to Movescountvia Moveslink, but has exports to Strava and can also download as Garmin FIT files.
 * Fitbit Surge: uploads to Fitbit & RunKeeper
 * [Sony Smartwatch 3](http://www.sonymobile.com/global-en/products/smartwear/smartwatch-3-swr50/): Runs on Android Wear and has built-in GPS, so you can use it as a stand-alone device.
+* Polar M600: Android WearOS so can use any app available for WearOS (doesn't need to use the Polar Flow)
 
 Not recommended:
 
-* Polar: locked down to FlowSync
+* Polar: locked down to FlowSync (except M600, as above)
 
 ## GPS
 
